@@ -33,7 +33,7 @@ function Dummy.server_changemode(self)
 
 end
 
-function Dummy.server_onProjectile(self,  position, timee, velocity, typee )
+function Dummy.server_onProjectile(self,  position, timee, velocity, type )
 
 
 end
@@ -58,7 +58,7 @@ function Dummy.client_onFixedUpdate(self, dt)
 if(sm.ffi.C.GetKeyState(79)==65409)then
 sm.gui.chatMessage("O key is pressed")
 end
-donce = 0
+
 end
 
 
