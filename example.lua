@@ -20,8 +20,6 @@ function Dummy.server_onFixedUpdate(self, dt)
 end
 
 function Dummy.client_onInteract(self)
-print("Interaction")
-sm.gui.chatMessage('Honk')
 if(sm.ffi)
 then
 sm.ffi.C.MessageBoxA(nil, "Hello world!", "Test", 0)
